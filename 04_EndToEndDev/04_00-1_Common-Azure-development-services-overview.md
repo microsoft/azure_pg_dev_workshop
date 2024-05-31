@@ -1,5 +1,11 @@
 ## Common Azure development services overview
 
+- 01 Common Azure development services overview
+- 02 [Explore PostgreSQL Developer samples](https://github.com/microsoft/azure_pg_dev_workshop/blob/main/04_EndToEndDev/04_00-4-Start-the-hands-on-tutorial.md)
+- 03 [Application continuous integration and deployment](https://github.com/microsoft/azure_pg_dev_workshop/blob/main/04_EndToEndDev/04_00-5_CI_CD.md)
+- 04 [Summary](https://github.com/microsoft/azure_pg_dev_workshop/blob/main/04_EndToEndDev/04_00-6-Summary.md)
+
+
 This section explains common cloud application architectures and Azure services. While these services are not directly related to PostgreSQL, they are often used in modern Azure applications. This content provides a fundamental understanding of the common Azure development resources. Subsequent material will reference these Azure services heavily.
 
 ### Web Apps

@@ -1,5 +1,11 @@
 ## Explore PostgreSQL Developer samples
 
+- 01 [Common Azure development services overview](https://github.com/microsoft/azure_pg_dev_workshop/blob/main/04_EndToEndDev/04_00-1_Common-Azure-development-services-overview.md)
+- 02 Explore PostgreSQL Developer samples
+- 03 [Application continuous integration and deployment](https://github.com/microsoft/azure_pg_dev_workshop/blob/main/04_EndToEndDev/04_00-5_CI_CD.md)
+- 04 [Summary](https://github.com/microsoft/azure_pg_dev_workshop/blob/main/04_EndToEndDev/04_00-6-Summary.md)
+
+
 ### Development environment setup
 
 The first step to exploring the evolution of PostgreSQL Application development is to get the environment set up and configure the infrastructure.
