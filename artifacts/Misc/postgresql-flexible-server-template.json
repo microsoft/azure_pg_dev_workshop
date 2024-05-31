@@ -1,0 +1,63 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "serverName": {
+            "type": "string",
+            "metadata": {
+                "description": "Flexible Server instance name."
+            }
+        },
+        "administratorLogin": {
+            "type": "string",
+            "defaultValue": "wsuser",
+            "metadata": {
+                "description": "Administrator login."
+            }
+        },
+        "administratorLoginPassword": {
+            "type": "securestring",
+            "defaultValue": "Solliance123",
+            "metadata": {
+                "description": "Administrator login password."
+            }
+        }
+    },
+    "functions": [],
+    "variables": {
+        "databaseName": "newdatabase"
+    },
+    "resources": [
+    {
+        "name": "[parameters('serverName')]",
+        "type": "Microsoft.DBforPostgreSQL/flexibleServers",
+        "apiVersion": "2021-05-01",
+        "location": "[resourceGroup().location]",
+        "properties": {
+            "administratorLogin": "[parameters('administratorLogin')]",
+            "administratorLoginPassword": "[parameters('administratorLoginPassword')]",
+            "createMode": "Default",
+            "storage": {
+                "storageSizeGB": 20
+            },
+            "sku": {
+                "name": "Standard_B1ms",
+                "tier": "Burstable"
+            },
+            "version": "14"
+        },
+        "resources": [
+            {
+                "type": "databases",
+                "apiVersion": "2021-05-01",
+                "name": "[variables('databaseName')]",
+                "dependsOn": [
+                    "[resourceId('Microsoft.DBforPostgreSQL/flexibleServers', parameters('serverName'))]"
+                ],
+                "properties": {}
+            }
+        ]
+    }
+    ],
+    "outputs": {}
+}

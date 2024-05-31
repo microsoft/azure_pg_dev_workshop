@@ -1,0 +1,38 @@
+version: '3.8'
+services:
+  web:
+    image: store-web
+    environment:
+      - DB_DATABASE=contosostore
+      - DB_USERNAME=postgres
+      - DB_PASSWORD=Solliance123
+      - DB_HOST=db
+      - DB_PORT=5432
+    ports:
+      - "8080:80" 
+    depends_on:
+      - db
+  db:
+    image: store-db
+    restart: always
+    environment:
+      - POSTGRES_PASSWORD=Solliance123
+      - POSTGRES_USER=postgres
+      - POSTGRES_DB=contosostore
+    volumes:
+      - "db-volume:/var/lib/postgresql"
+    ports:
+      - "5432:5432"
+  pgadmin:
+    image: dpage/pgadmin4
+    ports:
+        - '8081:80'
+    restart: always
+    environment:
+        - PGADMIN_DEFAULT_PASSWORD=Solliance123
+        - PGADMIN_DEFAULT_EMAIL=postgres@contoso.com
+    depends_on:
+        - db
+volumes:
+  db-volume:
+    external: false

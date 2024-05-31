@@ -1,0 +1,10 @@
+FROM postgres:16.1
+#RUN chown -R postgres:root /var/lib/postgres/
+
+ADD artifacts/data.sql /etc/postgres/data.sql
+
+ENV POSTGRES_DB contosostore
+
+RUN cp /etc/postgres/data.sql /docker-entrypoint-initdb.d
+
+EXPOSE 5432 22

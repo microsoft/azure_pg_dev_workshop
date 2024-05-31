@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: java-api-service
+  namespace: contosonoshnow
+spec:
+  type: ClusterIP
+  selector:
+    app: java-api
+  ports:
+  - port: 8080
+    targetPort: 8080

@@ -1,0 +1,71 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {},
+  "variables": {},
+  "resources": [
+      {
+          "type": "Microsoft.Batch/batchAccounts",
+          "apiVersion": "2021-06-01",
+          "name": "PostgreSQLdevmbsjnv3m",
+          "location": "eastus",
+          "tags": {
+              
+          },
+          "identity": {
+              "type": "None"
+          },
+          "properties": {
+              "autoStorage": {
+                  "storageAccountId": "/subscriptions/e433f371-e5e9-4238-abc2-7c38aa596a18/resourceGroups/cjg-PostgreSQL/providers/Microsoft.Storage/storageAccounts/PostgreSQLdevmbsjnv3m",
+                  "authenticationMode": "StorageKeys"
+              },
+              "poolAllocationMode": "BatchService",
+              "publicNetworkAccess": "Enabled",
+              "encryption": {
+                  "keySource": "Microsoft.Batch"
+              },
+              "allowedAuthenticationModes": [
+                  "SharedKey",
+                  "AAD",
+                  "TaskAuthenticationToken"
+              ]
+          }
+      },
+      {
+          "type": "Microsoft.Batch/batchAccounts/pools",
+          "apiVersion": "2021-06-01",
+          "name": "PostgreSQLdevmbsjnv3m/main",
+          "dependsOn": [
+              "[resourceId('Microsoft.Batch/batchAccounts', 'PostgreSQLdevmbsjnv3m')]"
+          ],
+          "properties": {
+              "displayName": "main",
+              "vmSize": "A5",
+              "interNodeCommunication": "Disabled",
+              "taskSlotsPerNode": 1,
+              "taskSchedulingPolicy": {
+                  "nodeFillType": "Pack"
+              },
+              "deploymentConfiguration": {
+                  "cloudServiceConfiguration": {
+                      "osFamily": "6",
+                      "osVersion": "*"
+                  }
+              },
+              "networkConfiguration": {
+                  "publicIPAddressConfiguration": {
+                      "provision": "BatchManaged"
+                  }
+              },
+              "scaleSettings": {
+                  "fixedScale": {
+                      "targetDedicatedNodes": 0,
+                      "targetLowPriorityNodes": 0,
+                      "resizeTimeout": "PT15M"
+                  }
+              }
+          }
+      }
+  ]
+}

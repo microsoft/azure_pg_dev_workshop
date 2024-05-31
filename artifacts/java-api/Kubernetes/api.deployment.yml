@@ -1,0 +1,37 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: java-api
+  namespace: contosonoshnow
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: java-api
+  template:
+    metadata:
+      labels:
+        app: java-api
+    spec:
+      containers:
+      - name: java-api
+        image: appacr[SUFFIX].azurecr.io/noshnowapi:0.0.1-SNAPSHOT
+        env:
+          - name: DB_CONNECTION_URL
+            value: jdbc:PostgreSQL://PostgreSQLflexapp[SUFFIX].postgres.database.azure.com/app
+          - name: DB_USERNAME
+            value: AppUser
+          - name: DB_PASSWORD
+            valueFrom:
+              secretKeyRef:
+                name: connection-secret
+                key: DB_PASSWORD
+        resources:
+          limits:
+            memory: "1Gi"
+            cpu: "500m"
+          requests:
+            memory: "750Mi"
+            cpu: "250m"
+        ports:
+        - containerPort: 8080
