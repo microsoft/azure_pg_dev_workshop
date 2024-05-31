@@ -12,7 +12,7 @@
 		<PackageReference Include="Microsoft.Extensions.Logging" Version="8.0.0" />
 		<PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.9.0-release-23619-01" />
 		<PackageReference Include="Moq" Version="4.20.70" />
-		<PackageReference Include="Npgsql" Version="8.0.1" />
+		<PackageReference Include="Npgsql" Version="8.0.3" />
 		<PackageReference Include="NUnit" Version="4.0.1" />
     <PackageReference Include="Azure.Search.Documents" Version="11.5.0-beta.5" />
     <PackageReference Include="Microsoft.SemanticKernel" Version="1.0.0-beta4" />
