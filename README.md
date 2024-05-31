@@ -16,10 +16,10 @@ This workshop is intended to be taken as a self-paced training.
 
 This **README.MD** file explains how the workshop is structured, what you will learn, and the technologies you will use in this solution.
 
-- 01 [Overview](01_Intro/01_Introduction.md)
-- 02 [Introduction to PostgreSQL](02_IntroToPostgreSQL/02_00_Intro_PostgreSQL.md)
-- 03 [Getting Started](https://github.com/microsoft/azure_pg_dev_workshop/blob/main/03_GettingStarted/03_00__Getting_Started.md)
-- 04 [Samples](https://github.com/microsoft/azure_pg_dev_workshop/blob/main/04_EndToEndDev/04_00-0_End_To_End_Development.md)
+- [01 Overview](01_Intro/01_Introduction.md)
+- [02 Introduction to PostgreSQL](02_IntroToPostgreSQL/02_00_Intro_PostgreSQL.md)
+- [03 Getting Started](https://github.com/microsoft/azure_pg_dev_workshop/blob/main/03_GettingStarted/03_00__Getting_Started.md)
+- [04 Samples](https://github.com/microsoft/azure_pg_dev_workshop/blob/main/04_EndToEndDev/04_00-0_End_To_End_Development.md)
   - [01-0 - Postgres Developer Features](https://github.com/microsoft/azure_pg_dev_workshop/blob/main/04_EndToEndDev/samples/04-01-00-PostgreSQL-Developer-Features/README.md)
   - [01-1 - pgBouncer](https://github.com/microsoft/azure_pg_dev_workshop/blob/main/04_EndToEndDev/samples/04-01-01-pgBouncer/README.md)
   - [01-2 - Logical Replication](https://github.com/microsoft/azure_pg_dev_workshop/blob/main/04_EndToEndDev/samples/04-01-02-Logical-Replication/README.md)
@@ -32,7 +32,7 @@ This **README.MD** file explains how the workshop is structured, what you will l
   - [08 - Azure Synapse Analytics](https://github.com/microsoft/azure_pg_dev_workshop/blob/main/04_EndToEndDev/samples/04-08-AzureSynapseAnalytics/README.md)
   - [09 - Azure Batch](https://github.com/microsoft/azure_pg_dev_workshop/blob/main/04_EndToEndDev/samples/04-09-AzureBatch/README.md)
   - [10 - External Samples](https://github.com/microsoft/azure_pg_dev_workshop/blob/main/04_EndToEndDev/samples/04-10_External_Samples/README.md)
-- 10 [AI](https://github.com/microsoft/azure_pg_dev_workshop/blob/main/05_AI/05_01_Intro_AI.md)
+- [10 AI](https://github.com/microsoft/azure_pg_dev_workshop/blob/main/05_AI/05_01_Intro_AI.md)
   - [01 - Generative AI with Azure Database for PostgreSQL Flexible Server](https://github.com/microsoft/azure_pg_dev_workshop/tree/main/05_AI/Samples/05-08-AI-Basics)
   - [02 - Using Hugging Face with Azure Database for PostgreSQL Flexible Server](https://github.com/microsoft/azure_pg_dev_workshop/tree/main/05_AI/Samples/05-09-01-AI-HuggingFace)
   - [03 - LangChain with Azure Database for PostgreSQL Flexible Server (RAG/ReAct)](https://github.com/microsoft/azure_pg_dev_workshop/tree/main/05_AI/Samples/05-09-02-AI-Langchain)
@@ -40,16 +40,16 @@ This **README.MD** file explains how the workshop is structured, what you will l
   - [05 - LangChain with Azure Database for PostgreSQL Flexible Server (VectorDB)](https://github.com/microsoft/azure_pg_dev_workshop/tree/main/05_AI/Samples/05-09-04-AI-Langchain-VectorDB)
   - [06 - Semantic Kernel with Azure Database for PostgreSQL Flexible Server](https://github.com/microsoft/azure_pg_dev_workshop/tree/main/05_AI/Samples/05-09-05-AI-Semantic-Kernel)
   - [07 - Full Chat Application with Semantic Kernel, PostgreSQL, Azure Open AI](https://github.com/microsoft/azure_pg_dev_workshop/tree/main/05_AI/Samples/05-09-06-AI-Full-Chat-Application)
-- 06 [Troubleshooting](https://github.com/microsoft/azure_pg_dev_workshop/blob/main/06_Troubleshooting/06_00_Troubleshooting.md)
-- 07 [Best Practices](https://github.com/microsoft/azure_pg_dev_workshop/blob/main/07_BestPractices/07_00_BestPractices.md)
-- 08 [Architectures](https://github.com/microsoft/azure_pg_dev_workshop/blob/main/08_Architectures/08_00_Architectures.md)
-- 09 [Case Studies](https://github.com/microsoft/azure_pg_dev_workshop/blob/main/09_CaseStudies/09_00_CaseStudies.md)
-- 10[Zero to Hero](https://github.com/microsoft/azure_pg_dev_workshop/blob/main/10_ZeroToHero/10_00_ZeroToHero.md)
-- 11 [Appendix]
-    - 01 [Infrastructure Concepts (Monitoring, Networking, Security, Testing, performance)](https://github.com/microsoft/azure_pg_dev_workshop/blob/main/11_01_Infrastructure/11_01_Infrastructure.md)
-    - 02 [Application Modernization](https://github.com/microsoft/azure_pg_dev_workshop/blob/main/11_02_AppModernization/11_00_AppModernization.md)
+- [06 Troubleshooting](https://github.com/microsoft/azure_pg_dev_workshop/blob/main/06_Troubleshooting/06_00_Troubleshooting.md)
+- [07 Best Practices](https://github.com/microsoft/azure_pg_dev_workshop/blob/main/07_BestPractices/07_00_BestPractices.md)
+- [08 Architectures](https://github.com/microsoft/azure_pg_dev_workshop/blob/main/08_Architectures/08_00_Architectures.md)
+- [09 Case Studies](https://github.com/microsoft/azure_pg_dev_workshop/blob/main/09_CaseStudies/09_00_CaseStudies.md)
+- [10 Zero to Hero](https://github.com/microsoft/azure_pg_dev_workshop/blob/main/10_ZeroToHero/10_00_ZeroToHero.md)
+- [11 Appendix]
+    - [01 Infrastructure Concepts (Monitoring, Networking, Security, Testing, performance)](https://github.com/microsoft/azure_pg_dev_workshop/blob/main/11_01_Infrastructure/11_01_Infrastructure.md)
+    - [02 Application Modernization](https://github.com/microsoft/azure_pg_dev_workshop/blob/main/11_02_AppModernization/11_00_AppModernization.md)
         - [Sample Application Intro](https://github.com/microsoft/azure_pg_dev_workshop/blob/main/11_02_AppModernization/11_01-Sample-Application-Intro.md)
-    - 03 [Workshop Setup](https://github.com/microsoft/azure_pg_dev_workshop/tree/main/11_03_Setup)
+    - [03 Workshop Setup](https://github.com/microsoft/azure_pg_dev_workshop/tree/main/11_03_Setup)
 
 ## Contributing
 
