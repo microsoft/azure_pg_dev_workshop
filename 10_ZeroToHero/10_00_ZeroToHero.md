@@ -1,5 +1,9 @@
 # 10 / Zero to Hero
 
+- 01 Zero to Hero
+- 02 [Summary](https://github.com/microsoft/azure_pg_dev_workshop/blob/main/10_ZeroToHero/10_01_Summary.md)
+- 02 [Resources](https://github.com/microsoft/azure_pg_dev_workshop/blob/main/10_ZeroToHero/10_02_Resources.md)
+
 We have reached the end of the guide. Hopefully, the content and hands-on tutorials have helped with assessing what application and database deployment is required. Take a moment to determine the required steps to move an application architecture to the next level. Architecture modernization and operational monitoring are iterative processes and we hope this guide is referenced too often.
 
 ## Summary of tasks

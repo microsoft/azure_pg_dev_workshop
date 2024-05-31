@@ -20,31 +20,26 @@ This **README.MD** file explains how the workshop is structured, what you will l
 - 02 [Introduction to PostgreSQL](02_IntroToPostgreSQL/02_00_Intro_PostgreSQL.md)
 - 03 [Getting Started](https://github.com/microsoft/azure_pg_dev_workshop/blob/main/03_GettingStarted/03_00__Getting_Started.md)
 - 04 [Samples](https://github.com/microsoft/azure_pg_dev_workshop/blob/main/04_EndToEndDev/04_00-0_End_To_End_Development.md)
-  - 01 - Postgres Developer Features
-  - 02 - Connecting / Languages
-  - 03 - Development Tools
-  - 04 - Function Apps (.NET)
-  - 05 - Function Apps (Python)
-  - 06 - Function Apps (Python) with MSI
-  - 07 - Function Apps (AKS)
-  - 08 - Logic Apps
-  - 09 - Azure Data Factory
-  - 10 - Azure Synapse Analytics
-  - 11 - Azure Batch
-- 05 AI(https://github.com/microsoft/azure_pg_dev_workshop/blob/main/05_AI/05_01_Intro_AI.md)
-  - 01 - Gen AI
-  - 02 - LLMs
-  - 03 - Responsible AI
-  - 04 - Prompt Engineering
-  - 05 - Types of AI Apps
-  - 06 - PostgreSQL and AI
-  - 07 - Samples
-    - 01 - AI Extensions, Azure Open AI, vector embeddings, Speech
-    - 02 - Image Processing - Hugging Face
-    - 03 - LangChain (Vector DB)
-    - 04 - LangChain (RAG/ReAct)
-    - 05 - Semantic Kernel
-    - 06 - Full Chat Application
+  - [01-0 - Postgres Developer Features](https://github.com/microsoft/azure_pg_dev_workshop/blob/main/04_EndToEndDev/samples/04-01-00-PostgreSQL-Developer-Features/README.md)
+  - [01-1 - pgBouncer](https://github.com/microsoft/azure_pg_dev_workshop/blob/main/04_EndToEndDev/samples/04-01-01-pgBouncer/README.md)
+  - [01-2 - Logical Replication](https://github.com/microsoft/azure_pg_dev_workshop/blob/main/04_EndToEndDev/samples/04-01-02-Logical-Replication/README.md)
+  - [02 - Function Apps (.NET)](https://github.com/microsoft/azure_pg_dev_workshop/blob/main/04_EndToEndDev/samples/04-02-FunctionApp-DotNet/README.md)
+  - [03 - Function Apps (Python)](https://github.com/microsoft/azure_pg_dev_workshop/blob/main/04_EndToEndDev/samples/04-03-FunctionApp-Python/README.md)
+  - [04 - Function Apps (AKS)](https://github.com/microsoft/azure_pg_dev_workshop/blob/main/04_EndToEndDev/samples/04-04-FunctionApp-AKS/README.md)
+  - [05 - Function Apps (Python) with MSI](https://github.com/microsoft/azure_pg_dev_workshop/blob/main/04_EndToEndDev/samples/04-05-FunctionApp-MSI/README.md)
+  - [06 - Logic Apps](https://github.com/microsoft/azure_pg_dev_workshop/blob/main/04_EndToEndDev/samples/04-06-LogicApp/README.md)
+  - [07 - Azure Data Factory](https://github.com/microsoft/azure_pg_dev_workshop/blob/main/04_EndToEndDev/samples/04-07-AzureDataFactory/README.md)
+  - [08 - Azure Synapse Analytics](https://github.com/microsoft/azure_pg_dev_workshop/blob/main/04_EndToEndDev/samples/04-08-AzureSynapseAnalytics/README.md)
+  - [09 - Azure Batch](https://github.com/microsoft/azure_pg_dev_workshop/blob/main/04_EndToEndDev/samples/04-09-AzureBatch/README.md)
+  - [10 - External Samples](https://github.com/microsoft/azure_pg_dev_workshop/blob/main/04_EndToEndDev/samples/04-10_External_Samples/README.md)
+- 10 [AI](https://github.com/microsoft/azure_pg_dev_workshop/blob/main/05_AI/05_01_Intro_AI.md)
+  - [01 - Generative AI with Azure Database for PostgreSQL Flexible Server](https://github.com/microsoft/azure_pg_dev_workshop/tree/main/05_AI/Samples/05-08-AI-Basics)
+  - [02 - Using Hugging Face with Azure Database for PostgreSQL Flexible Server](https://github.com/microsoft/azure_pg_dev_workshop/tree/main/05_AI/Samples/05-09-01-AI-HuggingFace)
+  - [03 - LangChain with Azure Database for PostgreSQL Flexible Server (RAG/ReAct)](https://github.com/microsoft/azure_pg_dev_workshop/tree/main/05_AI/Samples/05-09-02-AI-Langchain)
+  - [04 - Vector Similarity with PostgreSQL](https://github.com/microsoft/azure_pg_dev_workshop/tree/main/05_AI/Samples/05-09-03-AI-Langchain-Receipes)
+  - [05 - LangChain with Azure Database for PostgreSQL Flexible Server (VectorDB)](https://github.com/microsoft/azure_pg_dev_workshop/tree/main/05_AI/Samples/05-09-04-AI-Langchain-VectorDB)
+  - [06 - Semantic Kernel with Azure Database for PostgreSQL Flexible Server](https://github.com/microsoft/azure_pg_dev_workshop/tree/main/05_AI/Samples/05-09-05-AI-Semantic-Kernel)
+  - [07 - Full Chat Application with Semantic Kernel, PostgreSQL, Azure Open AI](https://github.com/microsoft/azure_pg_dev_workshop/tree/main/05_AI/Samples/05-09-06-AI-Full-Chat-Application)
 - 06 [Troubleshooting](https://github.com/microsoft/azure_pg_dev_workshop/blob/main/06_Troubleshooting/06_00_Troubleshooting.md)
 - 07 [Best Practices](https://github.com/microsoft/azure_pg_dev_workshop/blob/main/07_BestPractices/07_00_BestPractices.md)
 - 08 [Architectures](https://github.com/microsoft/azure_pg_dev_workshop/blob/main/08_Architectures/08_00_Architectures.md)
@@ -53,14 +48,7 @@ This **README.MD** file explains how the workshop is structured, what you will l
 - 11 [Appendix]
     - 01 [Infrastructure Concepts (Monitoring, Networking, Security, Testing, performance)](https://github.com/microsoft/azure_pg_dev_workshop/blob/main/11_01_Infrastructure/11_01_Infrastructure.md)
     - 02 [Application Modernization](https://github.com/microsoft/azure_pg_dev_workshop/blob/main/11_02_AppModernization/11_00_AppModernization.md)
-        -  01-Classic Deploy
-        - 02-CloudDeploy(VM)
-        - 03-CloudDeploy(AppSvc)
-        - 04-CloudDeploy(CI/CD)
-        - 05-Docker
-        - 06-Azure Container Instances(ACI)
-        - 07-AppService Containers
-        - 08-AKS
+        - [Sample Application Intro](https://github.com/microsoft/azure_pg_dev_workshop/blob/main/11_02_AppModernization/11_01-Sample-Application-Intro.md)
     - 03 [Workshop Setup](https://github.com/microsoft/azure_pg_dev_workshop/tree/main/11_03_Setup)
 
 ## Contributing

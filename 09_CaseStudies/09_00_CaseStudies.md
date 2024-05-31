@@ -1,5 +1,9 @@
 # 09 / Customer stories
 
+- 01 Customer stories
+- 02 [Common PostgreSQL Apps and Users](https://github.com/microsoft/azure_pg_dev_workshop/blob/main/09_CaseStudies/09_01_PostgreSQL_in_apps.md)
+- 03 [Summary](https://github.com/microsoft/azure_pg_dev_workshop/blob/main/09_CaseStudies/09_02_Summary.md)
+
 Azure Database for PostgreSQL Flexible Server is used by customers worldwide, and many have shared their stories on the [Microsoft Customer Stories portal](https://customers.microsoft.com/).
 
 ## Case studies

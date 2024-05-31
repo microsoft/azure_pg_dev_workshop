@@ -1,5 +1,8 @@
 # 08 / PostgreSQL Architectures
 
+- 01 Architectures
+- 02 [Summary](https://github.com/microsoft/azure_pg_dev_workshop/blob/main/08_Architectures/08_01_Summary.md)
+
 By progressing through this guide, there have been various ways presented to build and deploy applications using many different services in Azure. Although we covered many topics, there are many other creative and different ways to build and deploy PostgreSQL-based services.
 
 The [Azure Architecture center](https://learn.microsoft.com/azure/architecture/) provides many different examples of how to create different architectures. Although some of them utilize other database persistence technologies, these could easily be substituted with Azure Database for PostgreSQL Flexible Server Flexible Server.

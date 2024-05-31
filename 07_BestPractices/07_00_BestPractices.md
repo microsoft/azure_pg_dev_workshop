@@ -1,5 +1,8 @@
 # 07 / Best practices
 
+- 01 Best Practices
+- 02 [Summary](https://github.com/microsoft/azure_pg_dev_workshop/blob/main/07_BestPractices/07_01_Summary.md)
+
 ## Best practices for PostgreSQL Flexible Server apps
 
 Organizations developing cloud apps backed by Azure Database for PostgreSQL Flexible Server should consider implementing the following best practices. Note, that this list is not comprehensive.

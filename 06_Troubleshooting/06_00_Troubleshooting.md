@@ -1,5 +1,10 @@
 # 06 / Troubleshooting
 
+
+- 01 Troubleshooting
+- 02 [Summary](https://github.com/microsoft/azure_pg_dev_workshop/blob/main/06_Troubleshooting/06_01_Summary.md)
+
+
 As applications are running and executing in cloud environments, it is always a possibility that something unexpected can occur. This chapter covers a few common issues and the troubleshooting steps for each issue.
 
 ## Common PostgreSQL issues
