@@ -48,7 +48,7 @@ This **README.MD** file explains how the workshop is structured, what you will l
 - 11 Appendix
     - [01 Infrastructure Concepts (Monitoring, Networking, Security, Testing, performance)](https://github.com/microsoft/azure_pg_dev_workshop/blob/main/11_01_Infrastructure/11_01_Infrastructure.md)
     - [02 Application Modernization](https://github.com/microsoft/azure_pg_dev_workshop/blob/main/11_02_AppModernization/11_00_AppModernization.md)
-        - [Sample Application Intro](https://github.com/microsoft/azure_pg_dev_workshop/blob/main/11_02_AppModernization/11_01-Sample-Application-Intro.md)
+        - [01 Sample Application Intro](https://github.com/microsoft/azure_pg_dev_workshop/blob/main/11_02_AppModernization/11_01-Sample-Application-Intro.md)
     - [03 Workshop Setup](https://github.com/microsoft/azure_pg_dev_workshop/tree/main/11_03_Setup)
 
 ## Contributing
