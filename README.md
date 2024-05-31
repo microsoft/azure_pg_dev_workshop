@@ -18,7 +18,8 @@ This **README.MD** file explains how the workshop is structured, what you will l
 
 - 01 [Overview](01_Intro/01_Introduction.md)
 - 02 [Introduction to PostgreSQL](02_IntroToPostgreSQL/02_00_Intro_PostgreSQL.md)
-- 03 Samples
+- 03 [Getting Started](https://github.com/microsoft/azure_pg_dev_workshop/blob/main/03_GettingStarted/03_00__Getting_Started.md)
+- 04 [Samples](https://github.com/microsoft/azure_pg_dev_workshop/blob/main/04_EndToEndDev/04_00-0_End_To_End_Development.md)
   - 01 - Postgres Developer Features
   - 02 - Connecting / Languages
   - 03 - Development Tools
@@ -30,7 +31,7 @@ This **README.MD** file explains how the workshop is structured, what you will l
   - 09 - Azure Data Factory
   - 10 - Azure Synapse Analytics
   - 11 - Azure Batch
-- 04 AI
+- 05 AI(https://github.com/microsoft/azure_pg_dev_workshop/blob/main/05_AI/05_01_Intro_AI.md)
   - 01 - Gen AI
   - 02 - LLMs
   - 03 - Responsible AI
@@ -44,25 +45,23 @@ This **README.MD** file explains how the workshop is structured, what you will l
     - 04 - LangChain (RAG/ReAct)
     - 05 - Semantic Kernel
     - 06 - Full Chat Application
-- 05 Troubleshooting
-- 06 Architectures + Case Studies
-- 07 Summary
-- 08 Appendix
-  - 01 Infrastructure (Monitoring, Networking, Security, Testing, performance)
-  - 02 App Modernization
-    - 01-Classic Deploy
-    - 02-CloudDeploy(VM)
-    - 03-CloudDeploy(AppSvc)
-    - 04-CloudDeploy(CI/CD)
-    - 05-Docker
-    - 06-Azure Container Instances(ACI)
-    - 07-AppService Containers
-    - 08-AKS
-
-Potentially Secondary/Supplimentary Guide (break out the appendix app modernization into its own repo/guide):
-
-- 01 App Modernization
-
+- 06 [Troubleshooting](https://github.com/microsoft/azure_pg_dev_workshop/blob/main/06_Troubleshooting/06_00_Troubleshooting.md)
+- 07 [Best Practices](https://github.com/microsoft/azure_pg_dev_workshop/blob/main/07_BestPractices/07_00_BestPractices.md)
+- 08 [Architectures](https://github.com/microsoft/azure_pg_dev_workshop/blob/main/08_Architectures/08_00_Architectures.md)
+- 09 [Case Studies](https://github.com/microsoft/azure_pg_dev_workshop/blob/main/09_CaseStudies/09_00_CaseStudies.md)
+- 10[Zero to Hero](https://github.com/microsoft/azure_pg_dev_workshop/blob/main/10_ZeroToHero/10_00_ZeroToHero.md)
+- 11 [Appendix]
+    - 01 [Infrastructure Concepts (Monitoring, Networking, Security, Testing, performance)](https://github.com/microsoft/azure_pg_dev_workshop/blob/main/11_01_Infrastructure/11_01_Infrastructure.md)
+    - 02 [Application Modernization](https://github.com/microsoft/azure_pg_dev_workshop/blob/main/11_02_AppModernization/11_00_AppModernization.md)
+        -  01-Classic Deploy
+        - 02-CloudDeploy(VM)
+        - 03-CloudDeploy(AppSvc)
+        - 04-CloudDeploy(CI/CD)
+        - 05-Docker
+        - 06-Azure Container Instances(ACI)
+        - 07-AppService Containers
+        - 08-AKS
+    - 03 [Workshop Setup](https://github.com/microsoft/azure_pg_dev_workshop/tree/main/11_03_Setup)
 
 ## Contributing
 
