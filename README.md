@@ -1,19 +1,23 @@
-# Project
+# Workshop: The Azure PostgreSQL Developer Workshop
 
-> This repo has been populated by an initial template to help get you started. Please
-> make sure to update the content to build a great experience for community-building.
+#### <i>A Microsoft workshop from the Azure PostgreSQL team</i>
 
-As the maintainer of this project, please make a few updates:
+<p style="border-bottom: 1px solid lightgrey;"></p>
 
-- Improving this README.MD file to provide a great experience
-- Updating SUPPORT.MD with content about this project's support experience
-- Understanding the security reporting process in SECURITY.MD
-- Remove this section from the README
+<h2><b>About this Workshop</b></h2>
 
-# Microsoft-PostgreSQL-Developer-Samples
+Welcome to this Azure PostgreSQL Developer Workshop.
 
-- 01 Overview
-- 02 Intro to PostgreSQL
+In this workshop, you will learn how about PostgreSQL fundamentals and how to implement modern data applications that take advantage of Azure Database for PostgreSQL using a hands-on lab approach.
+
+This content is designed for data developers who have a basic working knowledge of PostgreSQL and the SQL language.
+
+This workshop is intended to be taken as a self-paced training.
+
+This **README.MD** file explains how the workshop is structured, what you will learn, and the technologies you will use in this solution.
+
+- 01 [Overview](01_Intro/01_Introduction.md)
+- 02 [Introduction to PostgreSQL](02_IntroToPostgreSQL/02_00_Intro_PostgreSQL.md)
 - 03 Samples
   - 01 - Postgres Developer Features
   - 02 - Connecting / Languages

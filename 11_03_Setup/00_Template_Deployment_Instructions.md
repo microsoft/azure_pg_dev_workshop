@@ -1,11 +1,11 @@
 # Getting Started
 
-1. Clone the [whitepaper GitHub repository](https://github.com/solliancenet/microsoft-PostgreSQL-developer-guide.git) to the development machine.
+1. Clone the [GitHub repository](https://github.com/microsoft/azure_pg_dev_workshop.git) to the development machine.
 
     ```cmd
     mkdir c:\labfiles
     cd c:\labfiles
-    git clone https://github.com/solliancenet/microsoft-PostgreSQL-developer-guide.git
+    git clone https://github.com/microsoft/azure_pg_dev_workshop.git
     ```
 
 2. Install the [PowerShell Azure module](https://learn.microsoft.com/powershell/azure/install-az-ps) if not already installed.
