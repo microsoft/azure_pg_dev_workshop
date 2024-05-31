@@ -4,7 +4,7 @@
 - 02 [Introduction to Azure Resource Management](https://github.com/microsoft/azure_pg_dev_workshop/blob/main/02_IntroToPostgreSQL/02_02_Introduction_to_Azure_resource_mgmt.md)
 - 03 [Introduction to Azure Database for PostgreSQL](https://github.com/microsoft/azure_pg_dev_workshop/blob/main/02_IntroToPostgreSQL/02_03_Introduction_to_Azure_PaaS_PostgreSQL.md)
 - 04 [Migration](https://github.com/microsoft/azure_pg_dev_workshop/blob/main/02_IntroToPostgreSQL/02_04_Migration.md)
-- 05 [Summary]
+- 05 Summary
 
 This module explained everyday use cases for PostgreSQL and illustrated the typical IaaS and PaaS deployment approaches. Additional hybrid approaches to hosting PostgreSQL applications and databases on Microsoft Azure were discussed as well. Core approaches to managing Microsoft Azure resources, including imperative tools (like the Azure CLI and Azure PowerShell) and declarative tools (like ARM templates and Terraform) were introduced.
 
