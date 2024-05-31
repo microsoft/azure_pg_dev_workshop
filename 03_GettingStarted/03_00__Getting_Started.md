@@ -1,5 +1,9 @@
 # 03 / Getting Started - Setup and Tools
 
+- 01 [Provision Azure Database for PostgreSQL Flexible Server](https://github.com/microsoft/azure_pg_dev_workshop/blob/main/03_GettingStarted/03_01_Getting_Started_Provision_PostgreSQL_Flexible_Server.md)
+- 02 [Samples](https://github.com/microsoft/azure_pg_dev_workshop/blob/main/03_GettingStarted/03_03_Samples.md)
+- 03 [Summary](https://github.com/microsoft/azure_pg_dev_workshop/blob/main/03_GettingStarted/03_15_Summary.md)
+
 With a firm understanding of PostgreSQL and other offerings available in Azure, it is time to review how to start using these various services in applications. In this chapter, we explore how to get Azure subscriptions configured and ready to host PostgreSQL applications. Common PostgreSQL application types and the various tools to simplify their deployment will reviewed. Sample code will make it easier to get started faster and understand high-level concepts.
 
 ## Azure free account

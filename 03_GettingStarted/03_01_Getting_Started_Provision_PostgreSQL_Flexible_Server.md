@@ -1,5 +1,10 @@
 ## Create a Flexible Server database
 
+- 01 Provision Azure Database for PostgreSQL Flexible Server
+- 02 [Samples](https://github.com/microsoft/azure_pg_dev_workshop/blob/main/03_GettingStarted/03_03_Samples.md)
+- 03 [Summary](https://github.com/microsoft/azure_pg_dev_workshop/blob/main/03_GettingStarted/03_15_Summary.md)
+
+
 The focus of this guide is on demonstrating practical uses of Azure Database for PostgreSQL Flexible Server, such as querying Flexible Server with common languages and administrative tools. This section illustrates how to deploy Azure Database for PostgreSQL g Flexible Server using various Azure management tools in preparation to follow the guide application samples.
 
 ### Azure portal
