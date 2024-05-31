@@ -45,7 +45,7 @@ This **README.MD** file explains how the workshop is structured, what you will l
 - [08 Architectures](https://github.com/microsoft/azure_pg_dev_workshop/blob/main/08_Architectures/08_00_Architectures.md)
 - [09 Case Studies](https://github.com/microsoft/azure_pg_dev_workshop/blob/main/09_CaseStudies/09_00_CaseStudies.md)
 - [10 Zero to Hero](https://github.com/microsoft/azure_pg_dev_workshop/blob/main/10_ZeroToHero/10_00_ZeroToHero.md)
-- [11 Appendix]
+- 11 Appendix
     - [01 Infrastructure Concepts (Monitoring, Networking, Security, Testing, performance)](https://github.com/microsoft/azure_pg_dev_workshop/blob/main/11_01_Infrastructure/11_01_Infrastructure.md)
     - [02 Application Modernization](https://github.com/microsoft/azure_pg_dev_workshop/blob/main/11_02_AppModernization/11_00_AppModernization.md)
         - [Sample Application Intro](https://github.com/microsoft/azure_pg_dev_workshop/blob/main/11_02_AppModernization/11_01-Sample-Application-Intro.md)
