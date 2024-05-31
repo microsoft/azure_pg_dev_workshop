@@ -1,5 +1,11 @@
 ## Migrate to Azure Database for Flexible Server
 
+- 01 [Introduction to PostgreSQL on Azure](02_IntroToPostgreSQL/02_01_Introduction_to_PostgreSQL_on_Azure.md)
+- 02 [Introduction to Azure Resource Management](02_IntroToPostgreSQL/02_02_Introduction_to_Azure_resource_mgmt.md)
+- 03 [Introduction to Azure Database for PostgreSQL](02_IntroToPostgreSQL/02_03_Introduction_to_Azure_PaaS_PostgreSQL.md)
+- 04 [Migration](02_IntroToPostgreSQL/02_04_Migration.md)
+- 05 [Summary] (02_IntroToPostgreSQL/02_05_Summary.md)
+
 ### From on-premises to Flexible Server
 
 Migration from external sources such as other cloud providers or instances running on-premises will require the movement of database artifacts and data. There are currently several tools available to do this:
