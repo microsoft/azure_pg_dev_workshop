@@ -4,7 +4,7 @@
 - 02 [Introduction to Azure Resource Management](https://github.com/microsoft/azure_pg_dev_workshop/blob/main/02_IntroToPostgreSQL/02_02_Introduction_to_Azure_resource_mgmt.md)
 - 03 [Introduction to Azure Database for PostgreSQL]
 - 04 [Migration](https://github.com/microsoft/azure_pg_dev_workshop/blob/main/02_IntroToPostgreSQL/02_04_Migration.md)
-- 05 [Summary] (https://github.com/microsoft/azure_pg_dev_workshop/blob/main/02_IntroToPostgreSQL/02_05_Summary.md)
+- 05 [Summary](https://github.com/microsoft/azure_pg_dev_workshop/blob/main/02_IntroToPostgreSQL/02_05_Summary.md)
 
 Developers can deploy PostgreSQL on Azure through Virtual Machines (IaaS) or Azure Database for PostgreSQL Flexible Server (PaaS). Azure Database for PostgreSQL Flexible Server offers high availability, automated backups, and meets compliance requirements. Operational administrators do not have the operational overhead of managing the OS and the DB engine. They do not need to worry about OS patching, database backups, or server security. Administrators only need to manage the applications and data. Developers can focus on schema design, building queries, and optimizing query performance.
 

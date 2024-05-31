@@ -4,7 +4,7 @@
 - 02 [Introduction to Azure Resource Management](https://github.com/microsoft/azure_pg_dev_workshop/blob/main/02_IntroToPostgreSQL/02_02_Introduction_to_Azure_resource_mgmt.md)
 - 03 [Introduction to Azure Database for PostgreSQL](https://github.com/microsoft/azure_pg_dev_workshop/blob/main/02_IntroToPostgreSQL/02_03_Introduction_to_Azure_PaaS_PostgreSQL.md)
 - 04 [Migration](https://github.com/microsoft/azure_pg_dev_workshop/blob/main/02_IntroToPostgreSQL/02_04_Migration.md)
-- 05 [Summary] (https://github.com/microsoft/azure_pg_dev_workshop/blob/main/02_IntroToPostgreSQL/02_05_Summary.md)
+- 05 [Summary](https://github.com/microsoft/azure_pg_dev_workshop/blob/main/02_IntroToPostgreSQL/02_05_Summary.md)
 
 Now that the benefits of PostgreSQL and a few common deployment models have been presented, this section explains approaches to hosting PostgreSQL specifically on Microsoft Azure and the many advantages of the Microsoft Azure platform.
 

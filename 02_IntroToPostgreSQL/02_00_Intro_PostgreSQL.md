@@ -4,7 +4,7 @@
 - 02 [Introduction to Azure Resource Management](https://github.com/microsoft/azure_pg_dev_workshop/blob/main/02_IntroToPostgreSQL/02_02_Introduction_to_Azure_resource_mgmt.md)
 - 03 [Introduction to Azure Database for PostgreSQL](https://github.com/microsoft/azure_pg_dev_workshop/blob/main/02_IntroToPostgreSQL/02_03_Introduction_to_Azure_PaaS_PostgreSQL.md)
 - 04 [Migration](https://github.com/microsoft/azure_pg_dev_workshop/blob/main/02_IntroToPostgreSQL/02_04_Migration.md)
-- 05 [Summary] (https://github.com/microsoft/azure_pg_dev_workshop/blob/main/02_IntroToPostgreSQL/02_05_Summary.md)
+- 05 [Summary](https://github.com/microsoft/azure_pg_dev_workshop/blob/main/02_IntroToPostgreSQL/02_05_Summary.md)
 
 Before jumping into Azure Database for PostgreSQL Flexible Server, it is important to understand some PostgreSQL history. Also, it is important to cover the various PostgreSQL hosting options and their pros and cons. As part of this guide, we will cover Artificial Intelligence (AI) and how Azure Database for PostgreSQL Flexible Server plays in this exciting space.
 

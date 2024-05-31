@@ -4,7 +4,7 @@
 - 02 [Introduction to Azure Resource Management]
 - 03 [Introduction to Azure Database for PostgreSQL](https://github.com/microsoft/azure_pg_dev_workshop/blob/main/02_IntroToPostgreSQL/02_03_Introduction_to_Azure_PaaS_PostgreSQL.md)
 - 04 [Migration](https://github.com/microsoft/azure_pg_dev_workshop/blob/main/02_IntroToPostgreSQL/02_04_Migration.md)
-- 05 [Summary] (https://github.com/microsoft/azure_pg_dev_workshop/blob/main/02_IntroToPostgreSQL/02_05_Summary.md)
+- 05 [Summary](https://github.com/microsoft/azure_pg_dev_workshop/blob/main/02_IntroToPostgreSQL/02_05_Summary.md)
 
 With a firm understanding of why millions of organizations choose Azure, and the database deployment models (IaaS vs. PaaS), the next step is to provide more detail about **how** developers interact with Azure.
 
