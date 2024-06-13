@@ -1,4 +1,4 @@
-# Workshop: The Azure PostgreSQL Developer Workshop
+# The Azure PostgreSQL Developer Workshop
 
 #### <i>A Microsoft workshop from the Azure PostgreSQL team</i>
 
