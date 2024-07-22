@@ -71,6 +71,7 @@ class AppHelper
 	}
 
 	// returns a user (if ID is provided) or a list of users
+    // randomly-generated data for demo only
 	public function userJson($id=null)
 	{
 		$json = '[
