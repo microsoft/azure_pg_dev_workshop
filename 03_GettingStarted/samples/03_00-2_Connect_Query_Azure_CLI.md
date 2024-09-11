@@ -6,13 +6,13 @@ The Azure CLI supports running queries interactively, via the `az postgres flexi
 
 ### Setup
 
-While the Azure Quickstart article mentioned above demonstrates how to provision a Flexible Server instance using the CLI, any of the presented provisioning methods in the [Create a Flexible Server database](./03_00_Getting_Started_Provision_PostgreSQL_Flexible_Server.md) section are possible.
+While the Azure Quickstart article mentioned above demonstrates how to provision a Flexible Server instance using the CLI, any of the presented provisioning methods in the [Create a Flexible Server database](../03_01_Getting_Started_Provision_PostgreSQL_Flexible_Server.md) section are possible.
 
 Running the CLI commands from the [Azure Cloud Shell](https://shell.azure.com) is preferable, as the context is already authenticated with Azure.
 
->![Note icon](media/note.png "Note") **Note:** These commands require the `rdbms-connect` CLI extension, which is automatically installed if it is not present.
+>![Note icon](../media/note.png "Note") **Note:** These commands require the `rdbms-connect` CLI extension, which is automatically installed if it is not present.
 
->![Note icon](media/note.png "Note") **Note:** The server must be setup to accept network traffic from other Azure services. Find this setting in the **Networking** section of the Flexible Server resource in the Azure Portal. It is located under the **Firewall rules** heading. Similarly, when connecting from a local machine, add the IP address to the firewall rules (or allow all traffic by adding the range: 0.0.0.0 - 255.255.255.255).
+>![Note icon](../media/note.png "Note") **Note:** The server must be setup to accept network traffic from other Azure services. Find this setting in the **Networking** section of the Flexible Server resource in the Azure Portal. It is located under the **Firewall rules** heading. Similarly, when connecting from a local machine, add the IP address to the firewall rules (or allow all traffic by adding the range: 0.0.0.0 - 255.255.255.255).
 
 ### Create a database on the Flexible Server
 
@@ -20,7 +20,7 @@ In this section, we will create a new database named `inventory` on the Flexible
 
 1. Retrieve the existing server name from the [Azure Portal](https://portal.azure.com) by navigating to the Flexible Server resource. The server name is displayed on the Overview page or in the header of the resource page. Do not include `.postgres.database.azure.com` in the server name. Also make note of the resource group name.
 
-    ![The server name is displayed on the Overview page of the Flexible Server resource.](media/azure-portal-flexible-server-overview-server-name.png "Azure Portal server name")
+    ![The server name is displayed on the Overview page of the Flexible Server resource.](../media/azure-portal-flexible-server-overview-server-name.png "Azure Portal server name")
 
 2. Open an [Azure Cloud Shell](https://shell.azure.com/) window and run the following command to create the **inventory** database on the Flexible Server. Replace the `<resource-group>` and `<server-name>` placeholders with the resource group and server name from the previous step.
 
@@ -28,7 +28,7 @@ In this section, we will create a new database named `inventory` on the Flexible
     az postgres flexible-server db create -g <resource-group> -s <server-name> -d inventory
     ```
 
-    ![The Azure CLI displays the command to create a new database.](media/az-postgres-flexible-server-create-database.png "Azure CLI create database")
+    ![The Azure CLI displays the command to create a new database.](../media/az-postgres-flexible-server-create-database.png "Azure CLI create database")
 
 ### Create a table in the inventory database
 
@@ -40,7 +40,7 @@ In this section, we will use the `az postgres flexible-server execute` command t
     az postgres flexible-server execute -n <server-name> -u <username> -p <password> -d inventory -q "CREATE TABLE products (id serial PRIMARY KEY, name VARCHAR(50), quantity INTEGER);"
     ```
 
-    ![The Azure CLI displays the command to create a new table.](media/az-postgres-flexible-server-create-table.png "Azure CLI create table")
+    ![The Azure CLI displays the command to create a new table.](../media/az-postgres-flexible-server-create-table.png "Azure CLI create table")
 
 ### Insert data into the products table
 
@@ -56,7 +56,7 @@ In this section, we will use the `az postgres flexible-server execute` command t
 
 2. In the cloud shell, upload the `proucts.sql` file to the cloud shell using the **Upload/Download files** button in the cloud shell toolbar.
 
-    ![The cloud shell toolbar displays with the Upload/Download files button highlighted.](media/cloud-shell-upload-download-files.png "Upload/Download files")
+    ![The cloud shell toolbar displays with the Upload/Download files button highlighted.](../media/cloud-shell-upload-download-files.png "Upload/Download files")
 
 3. Execute the following command to run the uploaded `products.sql` script.
 
@@ -64,7 +64,7 @@ In this section, we will use the `az postgres flexible-server execute` command t
     az postgres flexible-server execute -n <server-name> -u <username> -p <password> -d inventory -f products.sql
     ```
 
-    ![The Azure CLI displays the command to execute the SQL script.](media/az-postgres-flexible-server-execute-script.png "Azure CLI execute script")
+    ![The Azure CLI displays the command to execute the SQL script.](../media/az-postgres-flexible-server-execute-script.png "Azure CLI execute script")
 
 ### Query the products table using the interactive shell (PSQL Tool)
 
@@ -78,7 +78,7 @@ In this section, we will use the `az postgres flexible-server connect` command w
 
 2. Enter the password for the admin user when prompted. The Azure CLI will connect to the Flexible Server instance and display the connection information.
 
-    ![A cloud shell terminal displays with the flexible-server connect command executed. The database prompt is shown.](media/db-connected-cli-postgres-prompt.png "Connect to the Flexible Server admin database: inventory")
+    ![A cloud shell terminal displays with the flexible-server connect command executed. The database prompt is shown.](../media/db-connected-cli-postgres-prompt.png "Connect to the Flexible Server admin database: inventory")
 
 3. At the database (`inventory`) prompt, run the following SQL statement to query the `products` table.
 
@@ -86,7 +86,7 @@ In this section, we will use the `az postgres flexible-server connect` command w
     SELECT * FROM products;
     ```
 
-    ![The PSQL prompt shows the products query and displays the results in tabular format.](media/cli_psql_products_selection.png "PSQL products query result")
+    ![The PSQL prompt shows the products query and displays the results in tabular format.](../media/cli_psql_products_selection.png "PSQL products query result")
 
 ### Update and delete data in the products table
 
@@ -98,7 +98,7 @@ In this section, we will continue in the PSQL interactive shell to update and de
     UPDATE products SET quantity = 200 WHERE name = 'banana';
     ```
 
-    ![The PSQL prompt shows the products update query update is successful.](media/cli_psql_products_update.png "PSQL update product query result")
+    ![The PSQL prompt shows the products update query update is successful.](../media/cli_psql_products_update.png "PSQL update product query result")
 
 2. Run the `SELECT` statement again to verify the `banana` product quantity is updated.
 
@@ -124,7 +124,7 @@ In this section, we will continue in the PSQL interactive shell to update and de
     exit
     ```
 
-    ![Exit is entered at the database prompt returning to the Azure Cloud Shell prompt.](media/cli-exit-psql-interactive-shell.png "Exit the PSQL interactive shell")
+    ![Exit is entered at the database prompt returning to the Azure Cloud Shell prompt.](../media/cli-exit-psql-interactive-shell.png "Exit the PSQL interactive shell")
 
 ### SQL Files
 
@@ -140,4 +140,4 @@ In this section, we will use the `az postgres flexible-server db delete` command
     az postgres flexible-server db delete -g <resource-group> -s <server-name> -d inventory
     ```
 
-    ![The Azure CLI displays the command to delete the database.](media/az-postgres-flexible-server-delete-database.png "Azure CLI delete database")
+    ![The Azure CLI displays the command to delete the database.](../media/az-postgres-flexible-server-delete-database.png "Azure CLI delete database")
