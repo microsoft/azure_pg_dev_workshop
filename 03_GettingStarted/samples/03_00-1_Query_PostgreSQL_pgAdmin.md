@@ -10,7 +10,7 @@ Follow one of the methods in the [Create a Flexible Server database](./03_00_Get
 
 Download pgAdmin tool from the [pgAdmin Downloads](https://www.pgadmin.org/download/). Alternatively, use a package manager like [Chocolatey](https://community.chocolatey.org/packages/pgadmin4) and [WinGet](https://winget.run/search?query=pgAdmin) for Windows-based machines, as well as [Homebrew](https://formulae.brew.sh/cask/pgadmin4) for macOS. For Linux-based machines, use **yum** or **apt-get** to install pgAdmin.
 
-![The pgAdmin splash screen.](media/pgadmin-splash.png "The pgAdmin splash screen")
+![The pgAdmin splash screen.](../media/pgadmin-splash.png "The pgAdmin splash screen")
 
 ### Connect pgAdmin to Azure Database for PostgreSQL Flexible Server
 
@@ -20,11 +20,11 @@ Download pgAdmin tool from the [pgAdmin Downloads](https://www.pgadmin.org/downl
 
 3. On the **Connect** screen, locate and expand the **pgAmin 4** section to find instructions on how to add a connection to the server in the pgAdmin software.
 
-    ![pgAdmin instructions are displayed on the Connect screen of the Flexible Server resource in the Azure Portal.](media/pgadmin4-connection-instructions.png "pgAdmin server connection instructions")
+    ![pgAdmin instructions are displayed on the Connect screen of the Flexible Server resource in the Azure Portal.](../media/pgadmin4-connection-instructions.png "pgAdmin server connection instructions")
 
 4. On the target desktop, open the `pgAdmin` application and follow the instructions from the Azure Portal.
 
-    ![The pgAdmin application will display with a connection to the Azure Database for PostgreSQL Flexible Server.](media/flexible-server-connected.png "Connection established to Flexible Server in pgAdmin")
+    ![The pgAdmin application will display with a connection to the Azure Database for PostgreSQL Flexible Server.](../media/flexible-server-connected.png "Connection established to Flexible Server in pgAdmin")
 
 ### Create and connect to a new database in the Flexible Server instance using the Query Tool
 
@@ -36,7 +36,7 @@ Download pgAdmin tool from the [pgAdmin Downloads](https://www.pgadmin.org/downl
 
 4. Right-click on the **postgres** admin database and select **Query Tool**.
 
-    ![The pgAdmin Object explorer displays with the context menu open on the postgres database. Query Tool is selected in the context menu.](media/query-tool-menu-postgres-db.png "postgres database context menu")
+    ![The pgAdmin Object explorer displays with the context menu open on the postgres database. Query Tool is selected in the context menu.](../media/query-tool-menu-postgres-db.png "postgres database context menu")
 
 5. This will open a query window. Paste the following SQL statement into the query window and click the **Execute script** button to create a new database named **inventory**.
 
@@ -44,11 +44,11 @@ Download pgAdmin tool from the [pgAdmin Downloads](https://www.pgadmin.org/downl
     CREATE DATABASE inventory;
     ```
 
-    ![The pgAdmin Query Tool displays with the SQL statement to create a new database having executed successfully.](media/query-tool-create-database.png "Query Tool with CREATE DATABASE statement")
+    ![The pgAdmin Query Tool displays with the SQL statement to create a new database having executed successfully.](../media/query-tool-create-database.png "Query Tool with CREATE DATABASE statement")
 
 6. In the Object Explorer, right-click on the **Databases** node and select **Refresh**. The `inventory` database will display. Expand the **inventory** node to establish a connection into the new database.
 
-    ![The pgAdmin Object Explorer displays with the inventory database expanded to show the database objects.](media/inventory-database-created.png "inventory database created")
+    ![The pgAdmin Object Explorer displays with the inventory database expanded to show the database objects.](../media/inventory-database-created.png "inventory database created")
 
 7. Close the query tool tab that is connected to the **postgres** database. Do not save the changes.
 
@@ -56,7 +56,7 @@ Download pgAdmin tool from the [pgAdmin Downloads](https://www.pgadmin.org/downl
 
 1. In the Object Explorer, right-click on the **inventory** database and select **PSQL Tool**.
 
-    ![The pgAdmin Object Explorer displays with the context menu open on the inventory database. PSQL Tool is selected in the context menu.](media/psql-tool-menu-inventory-db.png "inventory database context menu")
+    ![The pgAdmin Object Explorer displays with the context menu open on the inventory database. PSQL Tool is selected in the context menu.](../media/psql-tool-menu-inventory-db.png "inventory database context menu")
 
 2. At the shell prompt, paste the following code and press <kbd>Enter</kbd>. The shell will output `CREATE TABLE` indicating the successful operation.
 
@@ -64,11 +64,11 @@ Download pgAdmin tool from the [pgAdmin Downloads](https://www.pgadmin.org/downl
     CREATE TABLE products (id serial PRIMARY KEY, name VARCHAR(50), quantity INTEGER);
     ```
 
-    ![The pgAdmin PSQL Tool displays with the SQL statement to create a new table having executed successfully.](media/psql-tool-create-table.png "PSQL Tool with CREATE TABLE statement")
+    ![The pgAdmin PSQL Tool displays with the SQL statement to create a new table having executed successfully.](../media/psql-tool-create-table.png "PSQL Tool with CREATE TABLE statement")
 
 3. In the Object Explorer, right-click the **inventory** database and select **Refresh**. Expand the **Schemas** item and the **public** node. The `products` table will display under **Tables**.
 
-    ![The pgAdmin Object Explorer displays with the inventory database expanded to show the products table.](media/products-table-created.png "products table created")
+    ![The pgAdmin Object Explorer displays with the inventory database expanded to show the products table.](../media/products-table-created.png "products table created")
 
 4. Keep the PSQL Tool window open for use in the next section.
 
@@ -88,7 +88,7 @@ Download pgAdmin tool from the [pgAdmin Downloads](https://www.pgadmin.org/downl
     INSERT INTO products (name, quantity) VALUES ('kiwi', 200);
     ```
 
-    ![The pgAdmin PSQL Tool displays with the SQL statements inserting new records having executed successfully.](media/psql-tool-insert-record.png "PSQL Tool with INSERT statements")
+    ![The pgAdmin PSQL Tool displays with the SQL statements inserting new records having executed successfully.](../media/psql-tool-insert-record.png "PSQL Tool with INSERT statements")
 
 3. Close the PSQL Tool tab.
 
@@ -102,7 +102,7 @@ Download pgAdmin tool from the [pgAdmin Downloads](https://www.pgadmin.org/downl
     SELECT * FROM products;
     ```
 
-    ![The pgAdmin Query Tool displays with the SQL statement to query the products table having executed successfully.](media/query-tool-select-all.png "Query Tool with SELECT statement")
+    ![The pgAdmin Query Tool displays with the SQL statement to query the products table having executed successfully.](../media/query-tool-select-all.png "Query Tool with SELECT statement")
 
 3. Keep the Query Tool window open for use in the next section.
 
@@ -114,7 +114,7 @@ The output of the previous query displays ther results in a spreadsheet-like for
 
 2. Select the **Save data changes** button to commit the changes back to the database.
 
-    ![The Query Tool displays with the value for orange having been changed to 125. The Save data changes button is highlighted.](media/update-row-gui.png "Update row in grid")
+    ![The Query Tool displays with the value for orange having been changed to 125. The Save data changes button is highlighted.](../media/update-row-gui.png "Update row in grid")
 
 3. Keep the Query Tool tab open for use in the next section.
 
@@ -126,7 +126,7 @@ The output of the previous query displays ther results in a spreadsheet-like for
     DELETE FROM products WHERE name = 'kiwi';
     ```
 
-    ![The pgAdmin Query Tool displays with the SQL statement to delete a record from the products table having executed successfully.](media/query-tool-delete-record.png "Query Tool with DELETE statement")
+    ![The pgAdmin Query Tool displays with the SQL statement to delete a record from the products table having executed successfully.](../media/query-tool-delete-record.png "Query Tool with DELETE statement")
 
 2. Change the query to a select query and notice the `kiwi` record is no longer present.
 
@@ -134,7 +134,7 @@ The output of the previous query displays ther results in a spreadsheet-like for
     SELECT * FROM products;
     ```
 
-    ![The pgAdmin Query Tool displays with the SQL statement to query the products table having executed successfully.](media/query-tool-select-all-after-delete.png "Query Tool with SELECT statement")
+    ![The pgAdmin Query Tool displays with the SQL statement to query the products table having executed successfully.](../media/query-tool-select-all-after-delete.png "Query Tool with SELECT statement")
 
 3. Close the Query Tool tab.
 
@@ -142,7 +142,7 @@ The output of the previous query displays ther results in a spreadsheet-like for
 
 1. Right-click on the **inventory** database, and select **Delete**.
 
-    ![The inventory database context window displays with the Delete item highlighted.](media/delete-inventory-db.png)
+    ![The inventory database context window displays with the Delete item highlighted.](../media/delete-inventory-db.png)
 
 2. Select **Yes** on the Delete Database confirmation modal dialog.
 
