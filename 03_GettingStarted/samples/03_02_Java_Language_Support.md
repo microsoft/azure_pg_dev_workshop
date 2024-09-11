@@ -16,7 +16,7 @@ While all Java IDEs are supported for Azure development, [Eclipse](https://www.e
 
 [Maven](https://maven.apache.org/guides/getting-started/index.html) improves the productivity of Java developers by managing builds, dependencies, releases, documentation, and more. Maven projects are created from archetypes. Microsoft provides the [Maven Plugins](https://learn.microsoft.com/training/modules/develop-azure-functions-app-with-maven-plugin/) for Azure to help Java developers work with Azure Functions, Azure App Service, and Azure Spring Cloud from their Maven workflows.
 
->![Note icon](media/note.png "Note") **Note:** Application patterns with Azure Functions, Azure App Service, and Azure Spring Cloud are addressed in the [04 / End to End application development] story.
+>![Note icon](../media/note.png "Note") **Note:** Application patterns with Azure Functions, Azure App Service, and Azure Spring Cloud are addressed in the [04 / End to End application development] story.
 
 #### Spring Data JPA
 
