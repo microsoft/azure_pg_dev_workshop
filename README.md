@@ -12,7 +12,7 @@ In this workshop, you will learn how about PostgreSQL fundamentals and how to im
 
 This content is designed for data developers who have a basic working knowledge of PostgreSQL and the SQL language.
 
-This workshop is intended to be taken as a self-paced training.
+This workshop is intended to be taken as a self-paced training. <b> None of these samples are intended to be used in production </b>
 
 This **README.MD** file explains how the workshop is structured, what you will learn, and the technologies you will use in this solution.
 
