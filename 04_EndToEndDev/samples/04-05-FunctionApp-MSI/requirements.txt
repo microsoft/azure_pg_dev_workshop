@@ -3,5 +3,4 @@
 # Manually managing azure-functions-worker may cause unexpected issues
 
 azure-functions
-PostgreSQL-connector-python
 azure.identity
